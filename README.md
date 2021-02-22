@@ -49,4 +49,4 @@ terraform apply   ( After verifying all the details in terraform apply will crea
   2. websever_scaledown_cpualaram         Then   websever_scaledown_alaram will trigger
   3. health checks through load balancer  Then   load_balancer_healthcheck_alaram will trigger
 
-# For every Alaram got triggered you will be getting an email notifcation from AWS
+# For every Alaram got triggered you will be getting an email notification from AWS
