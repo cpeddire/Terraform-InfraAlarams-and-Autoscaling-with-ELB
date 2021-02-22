@@ -47,6 +47,6 @@ terraform apply   ( After verifying all the details in terraform apply will crea
   # metrics conditions
   1. CPUUtilization >= 50 for 4 minutes   Then   websever_scaleup_alaram will trigger 
   2. CPUUtilization <= 20 for 4 minutes   Then   websever_scaledown_alaram will trigger
-  3. if the target is not healthy         Then   load_balancer_healthcheck_alaram will trigger
+  3. if the instance count < 3 and target is not healthy Then load_balancer_healthcheck_alaram will trigger
 
 # For every Alaram got triggered you will be getting an email notification from AWS
